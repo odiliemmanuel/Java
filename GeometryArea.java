@@ -15,7 +15,7 @@ import java.util.Scanner;
     System.out.println("The value for pie is " + pie);
 
         double sideLenght;
-        sideLenght = 2 * lenghtPent * Sin * pie/2;
+        sideLenght = 2 * lenghtPent * Math.PI*2;
     System.out.println("The lenght of the side is " + sideLenght);
 
         double area;
